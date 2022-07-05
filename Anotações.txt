@@ -1,1 +1,35 @@
 Site Markdown: https://www.markdownguide.org/
+Não consegui fazer da maneira que o professor orientou, ele clonou usando https.
+No caso estava pedindo para logar com um usuário e senha ssh.
+Entrei com dados do login, e nada.
+Foi importante a nova aula inclusa no curso de github sobre "chave ssh e token".	
+Então resolvi começar novamente, porém agora usando a chave ssh.
+
+
+$ git clone e colei a chave ssh
+//"clone concluido"
+
+$ ls______//"para listar as pastas e arquivos"
+dio-desafio-github-santande-2022-fullstack/
+
+$ cd dio-desafio-github-santande-2022-fullstack/
+"Para entrar na pasta"
+
+$ git status
+//"Neste passo foi identificado que tinha uma pasta nova"
+
+$ git add .
+//"Adicionar todos os aquivos devem ser enviados para o github"
+//"Porém essa identificação ocorreu apenas no controle de versão local"
+
+$ git commit -m "Inclusão de arquivos a atualização de arquivo existente"
+//"A criação de um commit é importante para dar sentido ao que esta sendo realizado"
+
+$ git push origin main
+//"este comando "empurra", envia todos os commit local, para a nuvem"
+
+
+
+
+
+
